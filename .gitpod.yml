@@ -1,16 +1,14 @@
 image:
-  file: .gitpod.dockerfile
+  file: ./Dockerfiles/dockerfile-firefox
 ports:
 - port: 3000
 - port: 6080
   onOpen: ignore
 - port: 5900
   onOpen: ignore
-tasks:
-- init: yarn
-  command: >
-    jwm &
-    yarn --cwd examples/browser start ../..
+#tasks:
+#- init: yarn
+#  command: 
 github:
   prebuilds:
     pullRequestsFromForks: true
