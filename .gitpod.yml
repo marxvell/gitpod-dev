@@ -1,10 +1,10 @@
 image:
-  file: ./Dockerfiles/dockerfile-firefox
+  file: ./Dockerfiles/dockerfile-xfce
 ports:
-- port: 3000
-- port: 6080
+#- port: 3000
+- port: 6901
   onOpen: ignore
-- port: 5900
+- port: 5901
   onOpen: ignore
 #tasks:
 #- init: yarn
