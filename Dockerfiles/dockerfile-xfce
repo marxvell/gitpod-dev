@@ -1,1 +1,1 @@
-from christian773/xfce-vnc:latest
+FROM christian773/xfce-vnc:latest
