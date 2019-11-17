@@ -1,5 +1,5 @@
 image:
-  file: ./Dockerfiles/dockerfile-xfce
+  file: ./Dockerfiles/dockerfile-firefox
 ports:
 #- port: 3000
 - port: 6901
